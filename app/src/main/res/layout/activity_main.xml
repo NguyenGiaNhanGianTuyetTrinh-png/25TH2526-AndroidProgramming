@@ -11,7 +11,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="XIN CHAO ANDROID"
+        android:text="XIN CHAO ANDROID123"
         tools:layout_editor_absoluteX="142dp"
         tools:layout_editor_absoluteY="356dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
