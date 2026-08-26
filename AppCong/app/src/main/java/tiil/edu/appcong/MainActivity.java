@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-    public void XuLyCong(View view){
+    public void XuLyCong(View view) {
         EditText editTextSoA = findViewById(R.id.edtA);
         EditText editTextSoB = findViewById(R.id.edtB);
         EditText editTextKetQua = findViewById(R.id.edtKQ);
@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
         String strA = editTextSoA.getText().toString(); //strA="2"
         String strB = editTextSoB.getText().toString(); //strB="4"
 
-        int so_A= Integer.parseInt(strA);
-        int so_B= Integer.parseInt(strB);
+        int so_A = Integer.parseInt(strA);
+        int so_B = Integer.parseInt(strB);
         int tong = so_A + so_B;
         String strTong = String.valueOf(tong);
         editTextKetQua.setText(strTong);
